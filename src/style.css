@@ -2,12 +2,13 @@
     --text-accent-color:#fff;
     --font-body-color:#bababa;
     --font-size-title:28px;
-    --font-size-subtitle:18px
+    --font-size-subtitle:18px;
 
 }
 * {
     box-sizing: inherit;
 }
+
 
 body, html {
     margin: 0;
@@ -32,6 +33,9 @@ body, html {
 
 .hero {
     height: 100vh;
+    padding-top: 193px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo__content{
@@ -51,10 +55,15 @@ body, html {
     text-decoration: none;
     color: var(--text-accent-color);
     font-size: 16px;
+    
 }
 .main-header{
     display: flex;
     padding: 12px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
 }
 .navigation{
     display: flex;
@@ -68,4 +77,44 @@ body, html {
 .navigation__icons{
     display: flex;
     gap: 8px;
+}
+
+/* Hero part*/
+.hero__hello{
+    margin-top: 0;
+    font-size: 46px;
+    margin-bottom: 42px;
+    font-weight:bold;
+}
+
+.hero___name{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.hero___profession{
+    font-size: 24px;
+    line-height: 33px;
+}
+.hero___profession::after{
+ content: "_";
+}
+.hero__go-content{
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 24px;
+}
+.hero__heading{
+    margin-bottom: auto;
+}
+.hero__download{
+    width: 100%;
+    text-decoration: none;
+    max-width: 355px;
+    height: 43px;
+    border:1px solid var(--font-body-color);
+    color:var(--text-accent-color);
+    text-align: center;
+    padding: 8px 33px;
+    border-radius: 4px;
 }
