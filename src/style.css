@@ -10,6 +10,24 @@
     box-sizing: inherit;
 }
 
+p {
+    margin-top: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
+    color: var(--font-body-color);
+    font-family: 'Open Sans';
+}
+
+ul {
+    /* margin: 0; */
+    padding: 0;
+    padding-left: 24px;
+
+}
+
+li {
+    color: var(--font-body-color);
+}
 
 body, html {
     margin: 0;
@@ -118,11 +136,13 @@ body, html {
 .hero__heading {
     margin-bottom: auto;
 }
-.hero__download-container{
-    display:flex;
+
+.hero__download-container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .hero__download {
     width: 100%;
     text-decoration: none;
@@ -136,27 +156,75 @@ body, html {
     display: block;
 }
 
+/* section experiences*/
 .heading {
     margin: 0;
-    margin-right: 34px;;
+    margin-right: 34px;
+    ;
 }
-.heading::after{
+
+.heading::after {
     content: "_";
 }
-.experiences,.education,.project,.contact{
-    margin-top:140px ;
+
+.experiences, .education, .project, .contact {
+    margin-top: 140px;
 }
-.experience__presentation{
+
+.experiences__heading {
+    margin-bottom: 58px;
+    color: var(--text-accent-color);
+    font-size: 28px;
+}
+
+.experiences__presentation {
     margin-bottom: 92px;
+    font-size: 14px;
+    color: var(--font-body-color)
 }
-.experience__content-first{
-    margin-bottom: 92px;
+
+.experiences-month {
+    margin-bottom: 8px;
+    color: var(--text-accent-color);
+    font-size: 16px;
 }
-.experience__content-two,
-.experience__content-three{
-    margin-top:32px;
+
+.experiences__name {
+    color: var(--font-body-color);
+    font-size: 18px;
+    margin: 0;
 }
-.content-two-description{
-    margin:0;
-    margin-bottom: 38px;
+
+.experiences__content {
+    margin-bottom: 32px;
+}
+
+.experiences__content-heading {
+    display: flex;
+    flex-direction: column;
+}
+/* education content */
+
+.education__content{
+    margin-top: 58px;
+}
+.education__content-heading{
+    display:flex;
+    flex-direction: column;
+}
+.education-year{
+    color:var(--text-accent-color);
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.education__name{
+    color: var(--font-body-color);
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.education-degree{
+    color: var(--font-body-color);
+    font-size: 14px;
+    margin-top: 8px;
 }
