@@ -228,3 +228,42 @@ body, html {
     font-size: 14px;
     margin-top: 8px;
 }
+
+/*projects content*/
+
+.projects__content{
+    margin-top: 58px;
+}
+.projects__name{
+    color:var(--text-accent-color);
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.project__image{
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.projects__image-link{
+    margin-top: 8px;
+    display: block;
+}
+.projects__skills{
+    margin-top: 8px;
+    flex-wrap: wrap;
+    display: flex;
+    gap:12px;
+}
+.projects__skill{
+    border: 1px var(--font-body-color) solid;
+    border-radius: 4px;
+    padding: 11px 23px;
+    
+}
+.contact__address{
+    font-style: normal;
+}
+.contact__address-link{
+    color: #3498db;
+}
