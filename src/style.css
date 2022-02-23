@@ -336,3 +336,27 @@ body, html {
     display: flex;
     gap: 4px;
 }
+
+/*Media queries part*/
+@media screen and (min-width:600px){
+    .main-content,.main-footer{
+        width: 500px;
+        margin-right:  auto;
+        margin-left: auto;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 600px;
+    }
+    .hero__hello,.hero__heading{
+        text-align: center;
+    }
+    .hero::before {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
