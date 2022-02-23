@@ -163,6 +163,7 @@ body, html {
 .hero___profession {
     font-size: 24px;
     line-height: 33px;
+    display: block;
 }
 
 .hero___profession::after {
@@ -174,7 +175,7 @@ body, html {
 .hero__go-content {
     text-align: center;
     margin-top: 62px;
-    margin-bottom: 24px;
+    margin-bottom: 88px;
 }
 
 .hero__heading {
