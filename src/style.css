@@ -207,8 +207,6 @@ body, html {
 /* section experiences*/
 .heading {
     margin: 0;
-    margin-right: 34px;
-    ;
 }
 
 .heading::after {
@@ -337,12 +335,13 @@ body, html {
     gap: 4px;
 }
 
-/*Media queries part*/
+/*Media queries part tablet*/
 @media screen and (min-width:600px){
     .main-content,.main-footer{
         width: 500px;
         margin-right:  auto;
         margin-left: auto;
+        padding: 0;
     }
     .hero{
         display: flex;
@@ -359,4 +358,28 @@ body, html {
         margin: 0 auto;
         text-align: center;
     }
+}
+/*Media queries part pc*/
+@media screen and (min-width:960px){
+    .main-content{
+        width: 824px;
+        margin-right:  auto;
+        margin-left: auto;
+    }
+    .projects__content{
+        width: 400px;
+    }
+    .projects{
+        display: flex;
+        flex-wrap:wrap;
+        column-gap:24px;
+        
+    }
+    .projects__heading{
+        width: 100%;
+    }
+    .main-footer__message{
+        justify-content: center;
+    }
+
 }
