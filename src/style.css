@@ -290,6 +290,7 @@ body, html {
     color: var(--text-accent-color);
     font-family: 'Open Sans';
     font-weight: bold;
+    display: flex;
 }
 
 .project__image {
@@ -298,7 +299,15 @@ body, html {
     object-fit: cover;
     border-radius: 4px;
 }
+.projects__github{
+    text-decoration: none;
+    color: var(--text-accent-color);
+    font-size: 24px;
+}
+.projects__github-link{
+    margin-left: auto;
 
+}
 .projects__image-link {
     margin-top: 8px;
     display: block;
