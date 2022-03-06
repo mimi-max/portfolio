@@ -40,7 +40,9 @@ ul {
 li {
     color: var(--font-body-color);
 }
-
+html{
+    scroll-padding-top: 52px;
+}
 body, html {
     margin: 0;
     box-sizing: border-box;
