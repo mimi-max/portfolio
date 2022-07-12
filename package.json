@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Présentation du projet",
   "scripts": {
     "start": "parcel ./src/index.html --host 0.0.0.0",
     "build": "parcel build src/index.html"
@@ -12,5 +12,14 @@
   "dependencies": {},
   "devDependencies": {
     "parcel": "^2.3.2"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimi-max/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mimi-max/portfolio/issues"
+  },
+  "homepage": "https://github.com/mimi-max/portfolio#readme"
 }

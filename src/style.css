@@ -1,6 +1,6 @@
 :root {
     --text-accent-color: #fff;
-    --font-body-color: #bababa;
+    --font-body-color: #fafafa;
     --font-size-title: 28px;
     --font-size-subtitle: 18px;
 
@@ -48,7 +48,7 @@ body, html {
     box-sizing: border-box;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #09171F;
+    background-color: #345945;;
     color: #fff;
     scroll-behavior: smooth;
 }
