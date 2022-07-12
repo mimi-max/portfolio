@@ -48,7 +48,7 @@ body, html {
     box-sizing: border-box;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
-    background-color: background-image: linear-gradient(to right top, #345945, #355f48, #37644c, #386a4f, #397053,
+    background-color:linear-gradient(to right top, #345945, #355f48, #37644c, #386a4f, #397053,
         #3f7a5b, #458462, #4b8e6a, #579f78, #63b086, #6fc194, #7cd3a3);
     color: #fff;
     scroll-behavior: smooth;
