@@ -13,9 +13,8 @@
   "devDependencies": {
     "parcel": "^2.3.2"
   },
-  "main": "index.js",
   "repository": {
-    "type": "github",
+    "type": "git",
     "url": "git+https://github.com/mimi-max/portfolio.git"
   },
   "bugs": {
